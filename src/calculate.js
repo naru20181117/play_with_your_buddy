@@ -3,5 +3,5 @@ export async function calculateNumber(data) {
   if (data.animalKind === 'shiba') {
     resultNum = (12 - data.petAge) * data.numberOfPlay;
   };
-	return resultNum;
+  return resultNum;
 }
