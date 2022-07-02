@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="content has-text-centered">
-        <p class="title is-5">なぜやるか</p>
+        <p className="title is-5">なぜやるか</p>
         <p>
           私たちの身近にいて、一緒に成長しているようで、実は成長速度が全く違う存在。
         </p>

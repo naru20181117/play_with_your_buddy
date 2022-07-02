@@ -1,12 +1,15 @@
 import React from "react";
 import { useForm } from 'react-hook-form';
+import Data from './../src/data/dog_kind.json';
 
 export function Form(props) {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm({
+    shouldUnregister: false,
+  });
   const onSubmit = (data) => {
     props.onFormSubmit(data);
   }
@@ -20,10 +23,12 @@ export function Form(props) {
               <label className="label">ペットの種類</label>
               <div className="control is-expanded">
                 <div className="select is-focused is-info">
-                  <select {...register("animalKind", { required: true })} defaultValue="shiba">
-                    <option value="shiba">いぬ</option>
-                    <option value="akita">ねこ</option>
-                    <option value="samoyed">さもえどちゃん</option>
+                  <select {...register("animalKind", { required: true })} defaultValue="terrier-american">
+                    {Data.map((data) => {
+                      return (
+                        <option key={data.name} value={data.value}>{data.name}</option>
+                      );
+                    })}
                   </select>
                 </div>
               </div>
@@ -35,21 +40,21 @@ export function Form(props) {
               <div className="control is-expanded">
                 <input
                   className="input is-rounded is-focused is-info"
-                  {...register('petAge', { min: 0, max: 30 })}
+                  {...register('petAge', { min: 0, max: 22 })}
                 />
-                {errors.petAge && "0から30才の間で選んでください"}
+                {errors.petAge && "0から22才の間で選んでください"}
               </div>
             </div>
             <div className="field">
-                <label className="label">年に何回いっしょに遊びますか？</label>
-                <div className="control is-expanded">
-                  <input
-                    className="input is-rounded is-focused is-info"
-                    {...register('numberOfPlay', { required: true })}
-                  />
-                  {errors.numberOfPlay && "遊ぶ回数を選んでください"}
-                </div>
+              <label className="label">年に何回いっしょに遊びますか？</label>
+              <div className="control is-expanded">
+                <input
+                  className="input is-rounded is-focused is-info"
+                  {...register('numberOfPlay', { required: true })}
+                />
+                {errors.numberOfPlay && "遊ぶ回数を選んでください"}
               </div>
+            </div>
           </div>
         </div>
       </div>

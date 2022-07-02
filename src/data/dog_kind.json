@@ -1,0 +1,180 @@
+[
+  {"value": "mix", "name": "MIX犬(10kg未満)", "average-life-span": 14.3 },
+  {"value": "mix", "name": "MIX犬(10kg以上20kg未満)", "average-life-span": 13.9 },
+  {"value": "affenpinscher", "name": "", "average-life-span": 13.7 },
+  {"value": "airedale", "name": "", "average-life-span": 13.7 },
+  {"value": "akita", "name": "秋田犬", "average-life-span": 11.6 },
+  {"value": "appenzeller", "name": "", "average-life-span": 13.7 },
+  {"value": "australian/shepherd", "name": "", "average-life-span": 13.7 },
+
+  {"value": "basenji", "name": "", "average-life-span": 13.7 },
+  {"value": "beagle", "name": "ビーグル", "average-life-span": 13.3 },
+  {"value": "bluetick", "name": "", "average-life-span": 13.7 },
+  {"value": "borzoi", "name": "", "average-life-span": 13.7 },
+  {"value": "bouvier", "name": "", "average-life-span": 13.7 },
+  {"value": "boxer", "name": "", "average-life-span": 13.7 },
+  {"value": "brabancon", "name": "", "average-life-span": 13.7 },
+  {"value": "briard", "name": "", "average-life-span": 13.7 },
+  {"value": "buhund/norwegian", "name": "", "average-life-span": 13.7 },
+
+  {"value": "bulldog/boston", "name": "", "average-life-span": 13.7 },
+  {"value": "bulldog/english", "name": "", "average-life-span": 13.7 },
+  {"value": "bulldog/french", "name": "", "average-life-span": 13.7 },
+
+  {"value": "bullterrier/staffordshire", "name": "", "average-life-span": 13.7 },
+
+  {"value": "cattledog/australian", "name": "", "average-life-span": 13.7 },
+
+  {"value": "chihuahua", "name": "チワワ", "average-life-span": 13.7 },
+  {"value": "chow", "name": "", "average-life-span": 13.7 },
+  {"value": "clumber", "name": "", "average-life-span": 13.7 },
+  {"value": "cockapoo", "name": "", "average-life-span": 13.7 },
+  {"value": "collie/border", "name": "", "average-life-span": 13.7 },
+
+  {"value": "coonhound", "name": "", "average-life-span": 13.7 },
+  {"value": "corgi/cardigan", "name": "", "average-life-span": 13.7 },
+
+  {"value": "cotondetulear", "name": "", "average-life-span": 13.7 },
+  {"value": "dachshund", "name": "ミニチュア・ダックスフンド", "average-life-span": 14.7 },
+  {"value": "dalmatian", "name": "", "average-life-span": 13.7 },
+  {"value": "dane/great", "name": "", "average-life-span": 13.7 },
+
+  {"value": "deerhound/scottish", "name": "", "average-life-span": 13.7 },
+
+  {"value": "dhole", "name": "", "average-life-span": 13.7 },
+  {"value": "dingo", "name": "", "average-life-span": 13.7 },
+  {"value": "doberman", "name": "", "average-life-span": 13.7 },
+  {"value": "elkhound/norwegian", "name": "", "average-life-span": 13.7 },
+
+  {"value": "entlebucher", "name": "", "average-life-span": 13.7 },
+  {"value": "eskimo", "name": "", "average-life-span": 13.7 },
+  {"value": "finnish/lapphund", "name": "", "average-life-span": 13.7 },
+
+  {"value": "frise/bichon", "name": "", "average-life-span": 13.7 },
+
+  {"value": "germanshepherd", "name": "", "average-life-span": 13.7 },
+  {"value": "greyhound/italian", "name": "イタリアン・グレーハウンド", "average-life-span": 15.1 },
+
+  {"value": "groenendael", "name": "", "average-life-span": 13.7 },
+  {"value": "havanese", "name": "", "average-life-span": 13.7 },
+  {"value": "hound/afghan", "name": "", "average-life-span": 13.7 },
+  {"value": "hound/basset", "name": "", "average-life-span": 13.7 },
+  {"value": "hound/blood", "name": "", "average-life-span": 13.7 },
+  {"value": "hound/english", "name": "", "average-life-span": 13.7 },
+  {"value": "hound/ibizan", "name": "", "average-life-span": 13.7 },
+  {"value": "hound/plott", "name": "", "average-life-span": 13.7 },
+  {"value": "hound/walker", "name": "", "average-life-span": 13.7 },
+
+  {"value": "husky", "name": "", "average-life-span": 13.7 },
+  {"value": "keeshond", "name": "", "average-life-span": 13.7 },
+  {"value": "kelpie", "name": "", "average-life-span": 13.7 },
+  {"value": "komondor", "name": "", "average-life-span": 13.7 },
+  {"value": "kuvasz", "name": "", "average-life-span": 13.7 },
+  {"value": "labradoodle", "name": "", "average-life-span": 13.7 },
+  {"value": "labrador", "name": "", "average-life-span": 13.7 },
+  {"value": "leonberg", "name": "", "average-life-span": 13.7 },
+  {"value": "lhasa", "name": "", "average-life-span": 13.7 },
+  {"value": "malamute", "name": "", "average-life-span": 13.7 },
+  {"value": "malinois", "name": "", "average-life-span": 13.7 },
+  {"value": "maltese", "name": "マルチーズ", "average-life-span": 13.0 },
+  {"value": "mastiff/bull", "name": "", "average-life-span": 13.7 },
+  {"value": "mastiff/english", "name": "", "average-life-span": 13.7 },
+  {"value": "mastiff/tibetan", "name": "", "average-life-span": 13.7 },
+
+  {"value": "mexicanhairless", "name": "", "average-life-span": 13.7 },
+  {"value": "mountain/bernese", "name": "", "average-life-span": 13.7 },
+  {"value": "mountain/swiss", "name": "", "average-life-span": 13.7 },
+
+  {"value": "newfoundland", "name": "", "average-life-span": 13.7 },
+  {"value": "otterhound", "name": "", "average-life-span": 13.7 },
+  {"value": "ovcharka/caucasian", "name": "", "average-life-span": 13.7 },
+
+  {"value": "papillon", "name": "パピヨン", "average-life-span": 14.4 },
+  {"value": "pekinese", "name": "", "average-life-span": 13.7 },
+  {"value": "pembroke", "name": "", "average-life-span": 13.7 },
+  {"value": "pinscher/miniature", "name": "ミニチュア・ピンシャー", "average-life-span": 13.6 },
+
+  {"value": "pitbull", "name": "", "average-life-span": 13.7 },
+  {"value": "pointer/german", "name": "", "average-life-span": 13.7 },
+  {"value": "pointer/germanlonghair", "name": "", "average-life-span": 13.7 },
+
+  {"value": "pomeranian", "name": "ポメラニアン", "average-life-span": 13.4 },
+  {"value": "poodle/medium", "name": "", "average-life-span": 13.7 },
+  {"value": "poodle/miniature", "name": "", "average-life-span": 13.7 },
+  {"value": "poodle/standard", "name": "", "average-life-span": 13.7 },
+  {"value": "poodle/toy", "name": "プードル・トイ", "average-life-span": 14.7 },
+
+  {"value": "pug", "name": "", "average-life-span": 13.7 },
+  {"value": "puggle", "name": "", "average-life-span": 13.7 },
+  {"value": "pyrenees", "name": "", "average-life-span": 13.7 },
+  {"value": "redbone", "name": "", "average-life-span": 13.7 },
+  {"value": "retriever/chesapeake", "name": "", "average-life-span": 13.7 },
+  {"value": "retriever/curly", "name": "", "average-life-span": 13.7 },
+  {"value": "retriever/flatcoated", "name": "", "average-life-span": 13.7 },
+  {"value": "retriever/golden", "name": "", "average-life-span": 13.7 },
+
+  {"value": "ridgeback/rhodesian", "name": "", "average-life-span": 13.7 },
+
+  {"value": "rottweiler", "name": "", "average-life-span": 13.7 },
+  {"value": "saluki", "name": "", "average-life-span": 13.7 },
+  {"value": "samoyed", "name": "サモエド", "average-life-span": 13.4 },
+  {"value": "schipperke", "name": "", "average-life-span": 13.7 },
+  {"value": "schnauzer/giant", "name": "", "average-life-span": 13.7 },
+  {"value": "schnauzer/miniature", "name": "ミニチュア・シュナウザー", "average-life-span": 13.2 },
+
+  {"value": "setter/english", "name": "", "average-life-span": 13.7 },
+  {"value": "setter/gordon", "name": "", "average-life-span": 13.7 },
+  {"value": "setter/irish", "name": "", "average-life-span": 13.7 },
+
+  {"value": "sharpei", "name": "", "average-life-span": 13.7 },
+  {"value": "sheepdog/english", "name": "", "average-life-span": 13.7 },
+  {"value": "sheepdog/shetland", "name": "", "average-life-span": 13.7 },
+
+  {"value": "shiba", "name": "柴犬", "average-life-span": 14.5 },
+  {"value": "shihtzu", "name": "シー・ズー", "average-life-span": 13.6 },
+
+  {"value": "spaniel/blenheim", "name": "", "average-life-span": 13.7 },
+  {"value": "spaniel/brittany", "name": "", "average-life-span": 13.7 },
+  {"value": "spaniel/cocker", "name": "コッカー・スパニエル", "average-life-span": 12.8 },
+  {"value": "spaniel/irish", "name": "", "average-life-span": 13.7 },
+  {"value": "spaniel/japanese", "name": "", "average-life-span": 13.7 },
+  {"value": "spaniel/sussex", "name": "", "average-life-span": 13.7 },
+  {"value": "spaniel/welsh", "name": "", "average-life-span": 13.7 },
+
+  {"value": "springer/english", "name": "", "average-life-span": 13.7 },
+
+  {"value": "stbernard", "name": "", "average-life-span": 13.7 },
+
+  {"value": "terrier/american", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/australian", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/bedlington", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/border", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/cairn", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/dandie", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/fox", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/irish", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/kerryblue", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/lakeland", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/norfolk", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/norwich", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/patterdale", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/russell", "name": "ジャック・ラッセル・テリア", "average-life-span": 14.3 },
+  {"value": "terrier/scottish", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/sealyham", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/silky", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/tibetan", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/toy", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/welsh", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/westhighland", "name": "ウエスト・ハイランド・テリア", "average-life-span": 14.2 },
+  {"value": "terrier/wheaten", "name": "", "average-life-span": 13.7 },
+  {"value": "terrier/yorkshire", "name": "ヨークシャー・テリア", "average-life-span": 13.8 },
+
+  {"value": "tervuren", "name": "", "average-life-span": 13.7 },
+  {"value": "vizsla", "name": "", "average-life-span": 13.7 },
+  {"value": "waterdog/spanish", "name": "", "average-life-span": 13.7 },
+
+  {"value": "weimaraner", "name": "", "average-life-span": 13.7 },
+  {"value": "whippet", "name": "", "average-life-span": 13.7 },
+
+  {"value": "wolfhound/irish", "name": "", "average-life-span": 13.7 }
+]
