@@ -14,6 +14,10 @@ export function Footer() {
         <p>
           1回1回のコミュニケーションを少しでも愛情深いものに変え、残りの時間をより濃くできることを願っています。
         </p>
+        <p className="title is-5">製作者</p>
+        <p>
+          <a href="https://twitter.com/1026NT" alt="Twitter id">@1026NT</a>
+        </p>
       </div>
     </footer>
   )
