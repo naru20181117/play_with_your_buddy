@@ -1,5 +1,5 @@
 import React from "react";
-import title_img from './image/playwithyourbuddy_title.png';
+import title_img from './image/play_with_your_buddy_title_logo.png';
 import headerStyles from './styles/header.module.css';
 
 export function Header() {
