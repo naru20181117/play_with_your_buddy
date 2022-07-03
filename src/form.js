@@ -20,8 +20,8 @@ export function Form(props) {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="column">
-        <div className="columns is-mobile">
-          <div className="column is-half">
+        <div className="columns is-desktop">
+          <div className="column is-half-desktop has-text-centered">
             <div className="field">
               <label className="label">ペットの種類</label>
               <div className="control is-expanded">
@@ -37,7 +37,7 @@ export function Form(props) {
               </div>
             </div>
           </div>
-          <div className="column is-half">
+          <div className="column is-half-desktop has-text-centered">
             <div className="field">
               <label className="label">ペットの年齢（年）</label>
               <div className="control is-expanded">

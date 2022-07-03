@@ -69,7 +69,7 @@ export function Main() {
   return (
     <main>
       <section className="section">
-        <div className="columns is-5 is-narrow is-centered">
+        <div className="columns is-desktop is-narrow is-centered">
           <div className="box">
             {isResulted ? result : <Form onFormSubmit={reloadResults}/>}
           </div>

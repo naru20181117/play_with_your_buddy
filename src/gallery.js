@@ -25,7 +25,7 @@ export function Gallery(props) {
     <div className="columns is-centered is-multiline">
       {urls.map((url) => {
         return (
-          <div key={url} className="column is-3">
+          <div key={url} className="column is-full-mobile is-one-third-tablet is-one-quarter-desktop">
             <Image src={url} />
           </div>
         );
