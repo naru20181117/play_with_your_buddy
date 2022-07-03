@@ -47,7 +47,7 @@ export function Main() {
         <p className="mb-4">シェアして応援する</p>
         <div className="columns is-gapless is-centered">
           <div className="column is-one-quarter">
-            <a href="https://twitter.com/intent/tweet?text=ペットと何回遊べるかを再認識するサイト&hashtags=playwithyourbuddy&via=1026NT&related=1026NT&url=https://www.playwithyourbuddy.com/" target="_blank" className="has-text-black">
+            <a href="https://twitter.com/intent/tweet?text=ペットと何回遊べるかを再認識するサイト&hashtags=playwithyourbuddy&related=1026NT&url=https://www.playwithyourbuddy.com/" target="_blank" className="has-text-black">
               <FontAwesomeIcon icon={brands('twitter-square')} size="3x" />
             </a>
           </div>
@@ -69,10 +69,10 @@ export function Main() {
   return (
     <main>
       <section className="section">
-          <div className="columns is-5 is-narrow is-centered">
-            <div className="box">
-              {isResulted ? result : <Form onFormSubmit={reloadResults}/>}
-            </div>
+        <div className="columns is-5 is-narrow is-centered">
+          <div className="box">
+            {isResulted ? result : <Form onFormSubmit={reloadResults}/>}
+          </div>
         </div>
       </section>
       <section className="section">

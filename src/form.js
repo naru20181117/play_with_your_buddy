@@ -13,6 +13,9 @@ export function Form(props) {
   const onSubmit = (data) => {
     props.onFormSubmit(data);
   }
+  let existedData = Data.filter((data) => (
+    data.name != ''
+  ));
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -24,7 +27,7 @@ export function Form(props) {
               <div className="control is-expanded">
                 <div className="select is-focused is-info">
                   <select {...register("animalKind", { required: true })} defaultValue="terrier-american">
-                    {Data.map((data) => {
+                    {existedData.map((data) => {
                       return (
                         <option key={data.name} value={data.value}>{data.name}</option>
                       );
@@ -40,9 +43,9 @@ export function Form(props) {
               <div className="control is-expanded">
                 <input
                   className="input is-rounded is-focused is-info"
-                  {...register('petAge', { min: 0, max: 22 })}
+                  {...register('petAge', { min: 0, max: 22, required: true })}
                 />
-                {errors.petAge && "0から22才の間で選んでください"}
+                {errors.petAge && "0から22才の間で入力してください"}
               </div>
             </div>
             <div className="field">
@@ -52,7 +55,7 @@ export function Form(props) {
                   className="input is-rounded is-focused is-info"
                   {...register('numberOfPlay', { required: true })}
                 />
-                {errors.numberOfPlay && "遊ぶ回数を選んでください"}
+                {errors.numberOfPlay && "遊ぶ回数を入力してください"}
               </div>
             </div>
           </div>
