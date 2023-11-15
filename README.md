@@ -4,7 +4,7 @@
 
 ## アプリURL
 
-https://playwithyourbuddy.com/
+https://play-with-your-buddy.vercel.app/
 
 ### ローカル環境構築
 
